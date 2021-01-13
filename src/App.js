@@ -10,6 +10,7 @@ import FunctionalCounterTwo from "./components/FunctionalCounterTwo";
 import FunctionalIntervalCounter from "./components/FunctionalIntervalCounter";
 import UseEffectClass from "./components/UseEffectClass";
 import UseEffectClassTwo from "./components/UseEffectClassTwo";
+import UseEffectDataFetch from "./components/UseEffectDataFetch";
 import UseEffectFunctional from "./components/UseEffectFunctional";
 import UseEffectFunctionalThree from "./components/UseEffectFunctionalThree";
 import UseEffectFunctionalTwo from "./components/UseEffectFunctionalTwo";
@@ -36,6 +37,9 @@ function App() {
         {/* Interval Counter   */}
       <ClassIntervalCounter />
       <FunctionalIntervalCounter />
+
+        {/* data fetching */}
+      <UseEffectDataFetch />
 
     </div>
   );
