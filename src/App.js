@@ -39,7 +39,7 @@ function App() {
       <FunctionalIntervalCounter />
 
         {/* data fetching */}
-      <UseEffectDataFetch />
+      <UseEffectDataFetch /> 
 
     </div>
   );
