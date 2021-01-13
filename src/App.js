@@ -2,10 +2,12 @@ import React from "react";
 import './App.css';
 import ClassCounter from "./components/ClassCounter";
 import ClassCounterTwo from "./components/ClassCounterTwo";
+import ClassIntervalCounter from "./components/ClassIntervalCounter";
 import FunctionalCounter from "./components/FunctionalCounter";
 import FunctionalCounterFour from "./components/FunctionalCounterFour";
 import FunctionalCounterThree from "./components/FunctionalCounterThree";
 import FunctionalCounterTwo from "./components/FunctionalCounterTwo";
+import FunctionalIntervalCounter from "./components/FunctionalIntervalCounter";
 import UseEffectClass from "./components/UseEffectClass";
 import UseEffectClassTwo from "./components/UseEffectClassTwo";
 import UseEffectFunctional from "./components/UseEffectFunctional";
@@ -30,6 +32,11 @@ function App() {
       <UseEffectClassTwo />
       <UseEffectFunctionalTwo /> */}
       <UseEffectFunctionalThree />
+
+        {/* Interval Counter   */}
+      <ClassIntervalCounter />
+      <FunctionalIntervalCounter />
+
     </div>
   );
 }
